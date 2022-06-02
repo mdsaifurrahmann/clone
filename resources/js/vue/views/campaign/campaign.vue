@@ -1,5 +1,9 @@
 <template>
-	<div class="container overflow-hidden">
+
+	<div class="container overflow-hidden mb-20 sm:mb-0">
+        <h4 class="text-[#1c3c6b] font-semibold text-xl sm:text-[2.1rem]">
+            Partner's
+	    </h4>
 		<Splide
 			:options="{
 				rewind: false,

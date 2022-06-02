@@ -1,5 +1,5 @@
 <template>
-	<footer class="bg-cyanblue py-6 mt-16">
+	<footer class="bg-cyanblue py-6 mt-16 hidden sm:block">
 		<div class="container pt-14">
 			<div class="grid sm:grid-cols-4 gap-4">
 				<div>

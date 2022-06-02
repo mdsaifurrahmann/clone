@@ -2,7 +2,7 @@
 	<div class="container my-9">
 		<div class="sm:flex justify-between items-center">
 			<div class="flex">
-				<h4 class="text-[#1c3c6b] font-semibold text-[2.1rem]">
+				<h4 class="text-[#1c3c6b] font-semibold text-xl sm:text-[2.1rem]">
 					Hot Deals
 				</h4>
 			</div>
@@ -38,6 +38,8 @@
 				breakpoints: {
 					992: {
 						perPage: 1,
+                        fixedWidth: '100%',
+                        gap: '1.5rem',
 					},
 				},
 			}"
@@ -63,7 +65,7 @@
 					shadow-md
 				"
 			>
-				<div class="flex">
+				<div class="sm:flex block">
 					<div
 						class="
 							min-w-[160px]
@@ -71,7 +73,8 @@
 							relative
 							-top-6
 							-left-6
-							flex
+							sm:flex
+                            block
 						"
 					>
 						<img
@@ -105,19 +108,22 @@
 							/>
 						</svg>
 
-						<p>TOUR0521</p>
+						<p class="text-xs sm:text-base">TOUR0521</p>
 					</div>
-					<div class="absolute right-6 -bottom-5">
+					<div class="absolute sm:right-6 right-[0.7rem] sm:-bottom-5 -bottom-4">
 						<a
 							href="#"
 							class="
 								bg-[#fccd03]
 								text-[#1c3c6b]
-								py-3
-								px-3.5
+								sm:py-3
+								sm:px-3.5
+                                py-2
+                                px-3
 								rounded-lg
 								font-bold
-								text-sm
+								sm:text-sm
+                                text-xs
 								flex
 								items-center
 							"
@@ -143,7 +149,7 @@
 					shadow-md
 				"
 			>
-				<div class="flex">
+				<div class="sm:flex block">
 					<div
 						class="
 							min-w-[160px]
@@ -151,7 +157,8 @@
 							relative
 							-top-6
 							-left-6
-							flex
+							sm:flex
+                            block
 						"
 					>
 						<img
@@ -185,19 +192,22 @@
 							/>
 						</svg>
 
-						<p>TOUR0521</p>
+						<p class="text-xs sm:text-base">TOUR0521</p>
 					</div>
-					<div class="absolute right-6 -bottom-5">
+					<div class="absolute sm:right-6 right-[0.7rem] sm:-bottom-5 -bottom-4">
 						<a
 							href="#"
 							class="
 								bg-[#fccd03]
 								text-[#1c3c6b]
-								py-3
-								px-3.5
+								sm:py-3
+								sm:px-3.5
+                                py-2
+                                px-3
 								rounded-lg
 								font-bold
-								text-sm
+								sm:text-sm
+                                text-xs
 								flex
 								items-center
 							"
@@ -223,7 +233,7 @@
 					shadow-md
 				"
 			>
-				<div class="flex">
+				<div class="sm:flex block">
 					<div
 						class="
 							min-w-[160px]
@@ -231,7 +241,8 @@
 							relative
 							-top-6
 							-left-6
-							flex
+							sm:flex
+                            block
 						"
 					>
 						<img
@@ -265,19 +276,22 @@
 							/>
 						</svg>
 
-						<p>TOUR0521</p>
+						<p class="text-xs sm:text-base">TOUR0521</p>
 					</div>
-					<div class="absolute right-6 -bottom-5">
+					<div class="absolute sm:right-6 right-[0.7rem] sm:-bottom-5 -bottom-4">
 						<a
 							href="#"
 							class="
 								bg-[#fccd03]
 								text-[#1c3c6b]
-								py-3
-								px-3.5
+								sm:py-3
+								sm:px-3.5
+                                py-2
+                                px-3
 								rounded-lg
 								font-bold
-								text-sm
+								sm:text-sm
+                                text-xs
 								flex
 								items-center
 							"
@@ -291,6 +305,8 @@
 					</div>
 				</div>
 			</SplideSlide>
+
+
 		</Splide>
 	</div>
 </template>
@@ -327,7 +343,7 @@ export default defineComponent({
 }
 
 .deal-exerp {
-	@apply text-sm mt-[5px] text-[#22292f];
+	@apply text-sm mt-[5px] text-[#22292f] mb-2 sm:mb-0;
 }
 .promo-code {
 	@apply flex items-center py-1 px-2.5 rounded bg-[#ecf3fe];

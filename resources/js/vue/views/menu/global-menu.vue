@@ -28,6 +28,30 @@
 			</div>
 		</div>
 	</nav>
+    <nav class="container sm:hidden  fixed bottom-[3%] z-20">
+        <div class="w-full shadow-lg rounded-3xl bg-white px-5 py-4 ">
+            <div class="grid grid-cols-3">
+            <div>
+                <a href="#">
+                    <font-awesome-icon icon="fan" />
+                    Offer
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <font-awesome-icon icon="house" />
+                    Home
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <font-awesome-icon icon="arrow-right-to-bracket" />
+                    Account
+                </a>
+            </div>
+        </div>
+        </div>
+    </nav>
 </template>
 
 
