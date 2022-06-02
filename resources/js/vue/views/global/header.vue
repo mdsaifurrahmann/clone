@@ -119,7 +119,7 @@
 }
 
 .search-type {
-    @apply flex items-center bg-white absolute top-0 left-1/2 justify-between px-0 sm:px-14 transform -translate-x-1/2 -translate-y-1/2 sm:w-auto w-[95%] rounded-2xl overflow-scroll;
+    @apply flex items-center bg-white absolute top-0 left-1/2 justify-between px-0 sm:px-14 transform -translate-x-1/2 -translate-y-1/2 sm:w-auto w-[95%] rounded-2xl overflow-scroll sm:overflow-hidden;
 
 	span {
 
